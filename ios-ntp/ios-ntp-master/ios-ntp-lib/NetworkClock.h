@@ -20,5 +20,7 @@
 
 @property (NS_NONATOMIC_IOSONLY, readonly, copy) NSDate *   networkTime;
 @property (NS_NONATOMIC_IOSONLY, readonly) NSTimeInterval   networkOffset;
+@property (NS_NONATOMIC_IOSONLY) BOOL trustMe;
+
 
 @end
