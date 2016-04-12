@@ -29,5 +29,4 @@ class ViewController: UIViewController {
       timerLabel.text = "Internet time \(networkTime)"
     }
   }
-
 }
