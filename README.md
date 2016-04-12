@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSDefaultRunLoopMode)
     
   }
+  
   func update() {
     
     let networkTime = clock.networkTime
